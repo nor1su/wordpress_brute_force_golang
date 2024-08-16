@@ -13,7 +13,7 @@ This code is a Go-based utility for automating the attempt to authenticate on a 
    ```
 2. **Run the program**:
    ```bash
-   ./password_cracker -url="http://example.com" -username="admin" -password-list="passwords.txt" -threads=10
+   ./password_cracker -url="http://example.com" -username="admin" -password-list="passwords.txt" -threads=auto
    ```
    Replace `http://example.com`, `admin`, `passwords.txt`, and `10` with the appropriate values.
 
