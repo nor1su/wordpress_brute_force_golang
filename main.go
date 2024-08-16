@@ -78,6 +78,7 @@ func main() {
     }
     wg.Wait()
     fmt.Println("Completed. No successful login found.")
+}
 
 func parseThreadCount(threadCount string) (int, bool) {
     if threadCount == "auto" {
